@@ -11,3 +11,11 @@ Consider a simple database query, such as SELECT * FROM Database_Name WHERE colu
 
 My goal is to create a neural network that takes these two fields as input and predicts the execution time of any given SQL query.
 
+# Project Steps
+
+## First step:
+
+We need to create a Node class which contains the following fields:
+  1. The value of the Node
+  2. The derivative of that node with respect to the output function
+
