@@ -17,5 +17,7 @@ My goal is to create a neural network that takes these two fields as input and p
 
 We need to create a Node class which contains the following fields:
   1. The value of the Node
-  2. The derivative of that node with respect to the output function
+  2. The derivative of that node with respect to the output value called gradient
+  3. The values of the input from the previous nodes
+  4. The bias associated with this Node
 
