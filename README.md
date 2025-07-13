@@ -17,7 +17,12 @@ My goal is to create a neural network that takes these two fields as input and p
 
 We need to create a Node class which contains the following fields:
   1. The value of the Node
-  2. The derivative of that node with respect to the output value called gradient
-  3. The values of the input from the previous nodes
-  4. The bias associated with this Node
+  2. The value of the derivative of the output node with respect to this node
 
+## Second Step
+
+We need to create a neuron class which contains the following fields:
+  1. The value of the neuron after it has been passed to the activation function
+  2. Previous neurons this neuron is attached to
+  3. The weights this neuron is given as an input
+  4. Bias associated with this neuron
