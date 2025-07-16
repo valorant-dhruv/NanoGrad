@@ -10,3 +10,8 @@ Consider a simple database query, such as SELECT * FROM Database_Name WHERE colu
   2. The number of rows scanned by the query.
 
 My goal is to create a neural network that takes these two fields as input and predicts the execution time of any given SQL query.
+
+# Guide
+
+https://building-nanograd.hashnode.space/default-guide/problems-with-nanograd
+
